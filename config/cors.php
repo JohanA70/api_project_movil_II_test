@@ -23,6 +23,7 @@ return [
 
     //'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:8101')],
     'allowed_origins' => [
+        'http://localhost',
         'http://localhost:8100',
         'https://apiprojectmoviliitest-production.up.railway.app', // agrega el correcto
     ],
