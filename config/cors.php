@@ -25,6 +25,7 @@ return [
     'allowed_origins' => [
         'http://localhost',
         'http://localhost:8100',
+        'https://localhost',
         'https://apiprojectmoviliitest-production.up.railway.app', // agrega el correcto
     ],
 
