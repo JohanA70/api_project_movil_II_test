@@ -15,14 +15,16 @@ return [
     |
     */
 
-    'paths' => ['*'],
+    //'paths' => ['*'],
+    'paths' => ['api/*'],
+
 
     'allowed_methods' => ['*'],
 
     //'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:8101')],
     'allowed_origins' => [
         'http://localhost:8100',
-        'https://5beb-177-93-0-52.ngrok-free.app/', // agrega el correcto
+        'https://apiprojectmoviliitest-production.up.railway.app', // agrega el correcto
     ],
 
 
